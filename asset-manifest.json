@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/react-become-professional/static/css/main.5238b8de.chunk.css",
+    "main.js": "/react-become-professional/static/js/main.2fa1189c.chunk.js",
+    "main.js.map": "/react-become-professional/static/js/main.2fa1189c.chunk.js.map",
+    "runtime-main.js": "/react-become-professional/static/js/runtime-main.c07cf9e8.js",
+    "runtime-main.js.map": "/react-become-professional/static/js/runtime-main.c07cf9e8.js.map",
+    "static/css/2.aae0cc57.chunk.css": "/react-become-professional/static/css/2.aae0cc57.chunk.css",
+    "static/js/2.665d50b7.chunk.js": "/react-become-professional/static/js/2.665d50b7.chunk.js",
+    "static/js/2.665d50b7.chunk.js.map": "/react-become-professional/static/js/2.665d50b7.chunk.js.map",
+    "index.html": "/react-become-professional/index.html",
+    "static/css/2.aae0cc57.chunk.css.map": "/react-become-professional/static/css/2.aae0cc57.chunk.css.map",
+    "static/css/main.5238b8de.chunk.css.map": "/react-become-professional/static/css/main.5238b8de.chunk.css.map",
+    "static/js/2.665d50b7.chunk.js.LICENSE.txt": "/react-become-professional/static/js/2.665d50b7.chunk.js.LICENSE.txt",
+    "static/media/adviser.e62a4744.jpg": "/react-become-professional/static/media/adviser.e62a4744.jpg",
+    "static/media/Carousel.scss": "/react-become-professional/static/media/arrow.ed2d670a.svg",
+    "static/media/astrologer.2966d516.jpg": "/react-become-professional/static/media/astrologer.2966d516.jpg",
+    "static/media/businessowner.1d7bce13.jpg": "/react-become-professional/static/media/businessowner.1d7bce13.jpg",
+    "static/media/caredirector.d6ef2717.jpg": "/react-become-professional/static/media/caredirector.d6ef2717.jpg",
+    "static/media/caregiver.ffeb4f30.jpg": "/react-become-professional/static/media/caregiver.ffeb4f30.jpg",
+    "static/media/firstimage.7b794401.svg": "/react-become-professional/static/media/firstimage.7b794401.svg",
+    "static/media/fourthimage.10d34aec.svg": "/react-become-professional/static/media/fourthimage.10d34aec.svg",
+    "static/media/main.scss": "/react-become-professional/static/media/section-image.7d294296.jpg",
+    "static/media/nutritionist.5d231daf.jpg": "/react-become-professional/static/media/nutritionist.5d231daf.jpg",
+    "static/media/salesmanager.74ffd73f.jpg": "/react-become-professional/static/media/salesmanager.74ffd73f.jpg",
+    "static/media/secondimage.65e8dff7.svg": "/react-become-professional/static/media/secondimage.65e8dff7.svg",
+    "static/media/slick-theme.css": "/react-become-professional/static/media/slick.c94f7671.ttf",
+    "static/media/thirdimage.5c248b06.svg": "/react-become-professional/static/media/thirdimage.5c248b06.svg",
+    "static/media/trainer.d10bf514.jpg": "/react-become-professional/static/media/trainer.d10bf514.jpg",
+    "static/media/tutor.b95fef7f.jpg": "/react-become-professional/static/media/tutor.b95fef7f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c07cf9e8.js",
+    "static/css/2.aae0cc57.chunk.css",
+    "static/js/2.665d50b7.chunk.js",
+    "static/css/main.5238b8de.chunk.css",
+    "static/js/main.2fa1189c.chunk.js"
+  ]
+}

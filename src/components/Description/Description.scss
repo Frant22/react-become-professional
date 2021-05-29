@@ -36,5 +36,13 @@
 @media screen and (max-width: $breakpoint-small-tablet) {
   .description {
     padding: 112px 50px 72px;
+
+    &__title {
+      font-size: 28px;
+    }
+
+    &__text {
+      font-size: 14px;
+    }
   }
 }

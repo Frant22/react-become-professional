@@ -1,0 +1,55 @@
+.box {
+  max-width: 304px;
+
+  &__image {
+    width: 66px;
+    height: auto;
+  }
+
+  &__title {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: bold;
+  }
+
+  &__text {
+    line-height: 24px;
+    width: 100%;
+  }
+
+  &__decoration {
+    width: 100%;
+
+    &--green {
+      height: 12px;
+      background: $decoration-color-green
+    }
+
+    &--blue {
+      height: 24px;
+      background: $decoration-color-blue
+    }
+
+    &--turquoise {
+      height: 16px;
+      background: $decoration-color-turquoise
+    }
+  }
+}
+
+@media screen and (max-width: $breakpoint-medium-tablet) {
+  .box {
+    &__decoration {
+      display: none;
+    }
+
+    &__title {
+      padding: 20px 0;
+      max-width: 225px;
+    }
+
+    &__text {
+      max-width: 200px;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.footer {
+  width: auto;
+
+  background-color: $footer-color;
+
+  &__text {
+    font-size: 14px;
+    color: $text-white;
+    text-align: center;
+
+    padding: 64px 0 32px;
+  }
+}

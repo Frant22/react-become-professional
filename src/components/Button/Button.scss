@@ -1,0 +1,16 @@
+.button {
+  background: $button-color;
+  box-shadow: -4px 4px 15px rgba(129, 103, 227, 0.2);
+  border-radius: 50px;
+
+  width: 204px;
+  height: 48px;
+
+  cursor: pointer;
+
+  &__link {
+    text-decoration: none;
+    color: $text-white;
+    font-size: 18px;
+  }
+}

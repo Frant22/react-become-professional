@@ -1,0 +1,50 @@
+.information {
+  display: flex;
+  padding: 112px 350px 95px 350px;
+  
+  justify-content: space-between;
+  max-width: 2400px;
+
+  margin-right: auto;
+  margin-left: auto;
+
+  &__title {
+    font-size: 32px;
+    font-weight: bold;
+
+    padding-bottom: 24px;
+  }
+
+  &__text {
+    max-width: 520px;
+    line-height: 1.5;
+  }
+
+  &__content {
+    max-width: 520px;
+    padding-bottom: 30%;
+
+    background-image: url('../../images/info-image.svg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+@media screen and (max-width: $breakpoint-large-tablet) {
+  .information {
+    padding: 112px 100px 72px;
+  }
+}
+
+@media screen and (max-width: $breakpoint-small-tablet) {
+  .information {
+    padding: 100px 50px 95px;
+    display: flex;
+    flex-direction: column;
+
+    &__content {
+      padding-bottom: 70%;
+    }
+  }
+}

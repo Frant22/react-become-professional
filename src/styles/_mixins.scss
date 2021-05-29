@@ -1,0 +1,13 @@
+@mixin button-arrow {
+  background: url('../images/arrow.svg') no-repeat center;
+  background-color: #fff;
+  box-shadow: -4px 4px 15px rgba(129, 103, 227, 0.2);
+
+  width: 32px !important;
+  height: 32px !important;
+  border-radius: 50%;
+
+  &::before {
+    display: none;
+  }
+}

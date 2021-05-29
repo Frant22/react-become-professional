@@ -1,0 +1,42 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  width: 750px;
+
+  padding-left: 30px;
+
+  &__input {
+    height: 48px;
+    width: 100%;
+
+    border-bottom: 3px dashed $input-border-color;
+
+    &:focus,
+    &:-webkit-autofill,
+    &:-webkit-autofill:hover,
+    &:-webkit-autofill:focus {
+      outline: none;
+      border-bottom: 3px solid $input-border-color;
+      -webkit-box-shadow: 0 0 0 1000px #fff inset;
+      transition: background-color 5000s ease-in-out 0s;
+    }
+
+    &--error {
+      border-bottom: 3px dashed $input-error;
+      opacity: 0.5;
+    }
+
+    &--wide {
+      height: 70px;
+    }
+  }
+}
+
+@media screen and (max-width: $breakpoint-small-tablet) {
+  .form { 
+    width: 100%;
+    padding: 0;
+  }
+}

@@ -1,0 +1,24 @@
+.variants {
+  padding: 112px 350px 72px 350px;
+  position: relative;
+
+  &__title {
+    font-size: 32px;
+    font-weight: bold;
+
+    padding-bottom: 54px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: $breakpoint-large-screen) {
+  .variants {
+    padding: 112px 100px 72px;
+  }
+}
+
+@media screen and (max-width: $breakpoint-small-tablet) {
+  .variants {
+    padding: 10px 10px 0 60px;
+  }
+}
